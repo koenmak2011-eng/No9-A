@@ -203,6 +203,7 @@ dom.checkout.addEventListener("click", () => {
   const entries = cart.entries();
   if (entries.length === 0) return;
   openWhatsApp(buildOrderMessage(entries, itemsById));
+  cart.clear();
 });
 
 dom.bar.addEventListener("click", () => {
