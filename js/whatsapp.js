@@ -35,8 +35,9 @@ export function buildOrderMessage(entries, itemsById) {
     "",
     `Total: ${total}`,
     "",
-    "Name:",
-    "Collection time:",
+    "Order heads-up! Please wait for our WhatsApp confirmation before heading to the shop.",
+    "",
+    "Also, let us know if you have any allergies when placing your order -- we've got you!",
   ].join("\n");
 }
 
