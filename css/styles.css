@@ -241,13 +241,15 @@ a:hover {
     0 3px 14px rgba(255, 253, 249, 0.9);
 }
 .hero-sub {
+  display: inline-block;
   font-weight: 700;
   font-size: clamp(1rem, 2vw, 1.2rem);
   margin: 0 0 1.6rem;
-  color: var(--ink-soft);
-  text-shadow:
-    0 1px 0 rgba(255, 253, 249, 0.9),
-    0 2px 8px rgba(255, 253, 249, 0.85);
+  color: var(--ink);
+  background: rgba(255, 253, 249, 0.72);
+  backdrop-filter: blur(6px);
+  padding: 0.25rem 0.8rem;
+  border-radius: var(--radius-pill);
 }
 
 .hero-copy {
