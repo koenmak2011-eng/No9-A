@@ -170,7 +170,8 @@ a:hover {
   justify-content: space-between;
   gap: 1rem;
   padding: 0.7rem clamp(1rem, 4vw, 2.5rem);
-  background: var(--lilac-soft);
+  background: linear-gradient(90deg, rgba(239, 230, 255, 0.82), rgba(207, 232, 255, 0.82));
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
 }
 
