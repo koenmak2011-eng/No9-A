@@ -670,11 +670,36 @@ a:hover {
   font-weight: 800;
   margin: 0;
 }
-.footer-links {
+.footer-apps {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.6rem;
   justify-content: center;
-  margin: 0.3rem 0;
+  margin: 0.5rem 0 0.2rem;
+}
+.app-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--white);
+  border: 2px solid #fff;
+  border-radius: var(--radius-pill);
+  padding: 0.45rem 0.8rem;
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.app-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.app-chip img {
+  width: 18px;
+  height: 18px;
+  display: block;
 }
 .footer-small {
   margin: 0;
