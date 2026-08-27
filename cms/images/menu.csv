@@ -1,0 +1,20 @@
+id,category,name,description,price,tags,available
+A1,Bubble Tea,Classic Milk Tea,Smooth black tea with creamy milk and chewy tapioca pearls,4.20,Popular,yes
+A2,Bubble Tea,Brown Sugar Boba,Caramelised brown sugar syrup layered over fresh milk and warm pearls,4.50,Staff Pick,yes
+A3,Bubble Tea,Taro Milk Tea,Silky taro root blended with milk for a nutty vanilla finish,4.50,,yes
+A4,Bubble Tea,Matcha Latte,Ceremonial grade matcha poured over chilled milk,4.50,,yes
+A5,Bubble Tea,Strawberry Milk,Real strawberry puree shaken through fresh milk,4.20,,yes
+A6,Bubble Tea,Thai Milk Tea,Spiced Thai tea topped with a swirl of creamy milk,4.50,,yes
+B1,Fruit Tea,Mango Fruit Tea,Green tea with mango chunks over ice,4.50,Popular,yes
+B2,Fruit Tea,Passionfruit Tea,Tangy passionfruit and green tea with real seeds,4.50,,yes
+B3,Fruit Tea,Lychee Tea,Floral lychee jasmine tea served extra cold,4.50,,yes
+B4,Fruit Tea,Strawberry Tea,Fresh strawberries muddled into iced black tea,4.50,,yes
+C1,Slush,Mango Slush,Thick blended mango slush with a fruity finish,4.80,,yes
+C2,Slush,Strawberry Slush,Frozen strawberry slush blitzed to order,4.80,,yes
+C3,Slush,Lychee Slush,Creamy lychee slush with a light floral note,4.80,,yes
+D1,Waffles,Mochi Waffle Bites,Crispy mochi waffle cubes with chocolate drizzle,5.50,Staff Pick,yes
+D2,Waffles,Fresh Fruit Waffle,Golden waffle piled with berries banana and cream,5.90,,yes
+D3,Waffles,Bubble Waffle Cone,Hong Kong egg waffle cone with soft serve and sprinkles,5.50,,yes
+E1,Toppings,Tapioca Pearls,Classic chewy black boba pearls,0.70,,yes
+E2,Toppings,Popping Boba,Juice filled spheres that burst as you sip,0.70,,yes
+E3,Toppings,Grass Jelly,Cooling herbal jelly cubes,0.70,,yes
