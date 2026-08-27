@@ -14,6 +14,9 @@
   --peach-soft: #fff0e8;
   --bubblegum: #ff7fb6;
   --bubblegum-dark: #ef5c9c;
+  --violet: #7b52c4;
+  --coral: #ff8a5c;
+  --teal: #2fa39a;
   --mint: #bdead6;
   --sky: #cfe8ff;
   --ink: #2c3555; /* softened navy from the logo — used sparingly */
@@ -286,7 +289,7 @@ a:hover {
 /* ── Marquee ────────────────────────────────────────────────────────────── */
 .marquee {
   overflow: hidden;
-  background: var(--lilac);
+  background: linear-gradient(90deg, var(--butter), var(--peach), var(--lilac), var(--mint), var(--sky), var(--lilac), var(--peach), var(--butter));
   color: var(--ink);
   font-family: var(--font-display);
   font-weight: 700;
@@ -295,10 +298,18 @@ a:hover {
 }
 .marquee-track {
   display: flex;
-  gap: 2rem;
   width: max-content;
-  animation: scroll-left 26s linear infinite;
+  animation: scroll-left 45s linear infinite;
 }
+.marquee-track span {
+  padding-inline: 1.25rem;
+  white-space: nowrap;
+}
+.marquee-track span:nth-child(4n + 1) { color: var(--bubblegum-dark); }
+.marquee-track span:nth-child(4n + 2) { color: var(--violet); }
+.marquee-track span:nth-child(4n + 3) { color: var(--coral); }
+.marquee-track span:nth-child(4n) { color: var(--teal); }
+
 @keyframes scroll-left {
   to {
     transform: translateX(-50%);
