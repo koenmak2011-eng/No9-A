@@ -273,33 +273,6 @@ a:hover {
   animation: float 6s ease-in-out infinite;
 }
 
-/* Quirky sticker labels */
-.sticker {
-  position: absolute;
-  z-index: 2;
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-size: 0.95rem;
-  padding: 0.45rem 0.9rem;
-  border-radius: var(--radius-pill);
-  border: 3px solid #fff;
-  box-shadow: var(--shadow-sm);
-  transform: rotate(-8deg);
-}
-.sticker-vibes {
-  top: 4%;
-  right: 4%;
-  background: var(--butter);
-  color: var(--ink);
-}
-.sticker-milk {
-  bottom: 8%;
-  left: 0;
-  background: var(--lilac);
-  color: var(--ink);
-  transform: rotate(7deg);
-}
-
 @keyframes float {
   0%,
   100% {
