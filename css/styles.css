@@ -17,6 +17,8 @@
   --violet: #7b52c4;
   --coral: #ff8a5c;
   --teal: #2fa39a;
+  --blue: #3f88c5;
+  --magenta: #d63fa6;
   --mint: #bdead6;
   --sky: #cfe8ff;
   --ink: #2c3555; /* softened navy from the logo — used sparingly */
@@ -444,6 +446,18 @@ a:hover {
   font-weight: 800;
   font-size: 1.1rem;
 }
+
+/* Fun rotating colours for menu item text */
+.menu-grid .menu-card:nth-child(6n + 1) { --mc: var(--bubblegum-dark); } /* pink */
+.menu-grid .menu-card:nth-child(6n + 2) { --mc: var(--violet); }
+.menu-grid .menu-card:nth-child(6n + 3) { --mc: var(--coral); }
+.menu-grid .menu-card:nth-child(6n + 4) { --mc: var(--teal); }
+.menu-grid .menu-card:nth-child(6n + 5) { --mc: var(--blue); }
+.menu-grid .menu-card:nth-child(6n)     { --mc: var(--magenta); }
+
+.menu-card h3     { color: var(--mc, var(--ink)); }
+.menu-card .price { color: var(--mc, var(--ink)); }
+.menu-card .desc  { color: var(--ink-soft); color: color-mix(in srgb, var(--mc, var(--ink-soft)) 55%, white); }
 .add-btn {
   width: 38px;
   height: 38px;
